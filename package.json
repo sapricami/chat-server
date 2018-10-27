@@ -2,9 +2,6 @@
   "name": "chat-server",
   "version": "1.0.0",
   "description": "A Chatserver for chatspot",
-  "engines": {
-    "node": "8.11.1"
-  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
