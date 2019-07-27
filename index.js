@@ -10,3 +10,7 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 var api_auth = require('./api/auth')
 
 app.use('/auth', api_auth)
+
+var api_rooms = require('./api/rooms')
+
+app.use('/rooms', api_rooms)
